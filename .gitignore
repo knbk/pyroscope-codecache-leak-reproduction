@@ -1,0 +1,48 @@
+# Maven / Build output
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Gradle build output & cache
+.gradle/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+# Ignore any local override of Gradle user home (rare)
+gradle-user-home.properties
+
+# IDE metadata
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+.vscode/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Logs & temp
+*.log
+hs_err_pid*
+replay_pid*
+*.hprof
+*.jfr
+profile.html
+
+# Profiling artifacts
+async-profiler-*.
+/target/async-profiler/
+flamegraph.svg
+
+# Generated dependency reduced POM (if ever enabled)
+dependency-reduced-pom.xml
+
+# Local overrides
+local.properties
+.env
+
+# Java
+*.class
+
+# Cache
+.mvn/timing.properties
